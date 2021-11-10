@@ -19,8 +19,8 @@ import tensorflow_utils as tu
 scope = "user-library-read"
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(scope=scope,
-                                               client_id='8e900aa4f16a44839d1f34fe50b4b5a3',
-                                               client_secret='63a5e6ced0794a5ba218f26141ee947a',
+                                               client_id='XXXX',
+                                               client_secret='XXXX',
                                                redirect_uri='http://example.com', ))
 
 playlists = sp.current_user_playlists(20, 0)
